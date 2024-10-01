@@ -39,6 +39,22 @@
 .header nav ul a {
   color: white;
   text-decoration: none;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.header nav ul a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+.header nav ul a:hover::after {
+  width: 100%;
 }
 .header button {
   padding: 4px 16px;
@@ -88,7 +104,7 @@ main {
   margin-bottom: 20px;
   background-image: linear-gradient(90deg, #433d8b, #fff);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .hero__left--content p {
@@ -212,7 +228,7 @@ section.serv__sec {
   margin-bottom: 20px;
   background-image: linear-gradient(45deg, #433d8b, #fff);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .services__topics {
@@ -264,7 +280,7 @@ section.recentWorkSec .recentWork h2 {
   text-align: center;
   background-image: linear-gradient(45deg, #433d8b, #fff);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 2rem;
 }
@@ -317,7 +333,7 @@ section.recentWorkSec .recentWork__works--pics img {
   font-size: 36px;
   background-image: linear-gradient(45deg, #433d8b, #fff);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
 }
@@ -364,7 +380,7 @@ section.contacts .contactContainer .contact-form h2 {
   font-size: 36px;
   background-image: linear-gradient(45deg, #2e236c, #fff);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 1rem auto;
 }
@@ -458,7 +474,7 @@ section.contacts .contactContainer .contact-info > div i {
   font-size: 2.5rem;
   background-image: linear-gradient(45deg, #2e236c, #fff);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
 }
@@ -634,4 +650,4 @@ section.contacts .contactContainer .contact-info > div i {
 
 .footer-bottom p {
   margin: 0;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
