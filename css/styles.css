@@ -74,7 +74,7 @@
 /* hero section */
 main {
   max-width: 1200px;
-  margin: 8rem auto;
+  margin: 6rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
