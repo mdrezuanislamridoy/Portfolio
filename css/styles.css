@@ -100,7 +100,7 @@ main {
   color: #ffffff;
 }
 .hero__left--content h1 {
-  font-size: 48px;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   background-image: linear-gradient(90deg, #433d8b, #fff);
   -webkit-background-clip: text;
@@ -108,7 +108,7 @@ main {
   -webkit-text-fill-color: transparent;
 }
 .hero__left--content p {
-  font-size: 18px;
+  font-size: 1rem;
   margin-bottom: 20px;
   color: #d1d1d1;
 }
@@ -160,8 +160,8 @@ main {
 }
 
 .hero__right--content-img {
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
   box-shadow: -4px -2px 10px #433d8b, 4px 2px 10px #433d8b;
   position: relative;
   transform: rotate(3deg);
@@ -180,6 +180,8 @@ main {
   left: 0;
 }
 
+/* experiences */
+
 .experiences {
   display: flex;
   flex-wrap: wrap;
@@ -189,23 +191,27 @@ main {
 }
 .experiences__works {
   color: rgb(201, 201, 201);
-  width: 22%;
+  flex: 1;
+  max-width: 50%;
   display: flex;
   justify-content: left;
   align-items: center;
   margin: 0.5rem;
 }
 .experiences__works h2 {
-  font-size: 60px;
-  margin-right: 1rem;
+  font-size: 50px;
+  margin-right: 0.5rem;
 }
 .experiences__works p {
   font-size: 18px;
 }
 
+/* services section  */
+
 section.serv__sec {
   background-color: black;
   padding-bottom: 4rem;
+  padding-top: 2rem;
 }
 
 .services {

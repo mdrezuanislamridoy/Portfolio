@@ -38,7 +38,10 @@
     flex-direction: column;
   }
   .hero .hero__right--content {
-    width: 100%;
+    width: 80%;
+  }
+  .hero__right--content-img {
+    max-width: 100%;
   }
   .experiences {
     flex-wrap: wrap;
