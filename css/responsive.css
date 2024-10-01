@@ -1,0 +1,85 @@
+@media screen and (max-width: 780px) {
+  .top-area {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .header__logo {
+    width: 100%;
+  }
+  .header__logo h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .header nav {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  main {
+    height: auto;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    margin: 2rem auto;
+  }
+  .hero .hero__left--content {
+    margin-top: 5rem;
+    width: 90%;
+    text-align: center;
+  }
+  .hero .hero__left--content-links {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero .hero__right--content {
+    width: 100%;
+  }
+  .experiences {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .experiences__works {
+    width: 45%;
+  }
+  .services__topics div {
+    flex-direction: column;
+    text-align: center;
+  }
+  .services__topics div h2 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .services__topics div p {
+    width: 100%;
+  }
+  .services__topics div i {
+    display: none;
+  }
+  .recentWork__works--pics {
+    width: 90% !important;
+    margin: auto;
+  }
+  .experienceNeducation {
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    padding: 1rem;
+  }
+  .experienceNeducation .experience,
+  .experienceNeducation .education {
+    width: 96% !important;
+    margin-bottom: 2rem;
+  }
+  .contactContainer {
+    flex-direction: column-reverse;
+  }
+  .contactContainer .contact-info {
+    padding-top: 2rem !important;
+  }
+  .contactContainer > div {
+    width: 96% !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */
