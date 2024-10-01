@@ -89,3 +89,9 @@
     width: 96% !important;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .experiences__works {
+    width: 100%;
+  }
+}
