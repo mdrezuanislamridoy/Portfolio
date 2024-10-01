@@ -18,6 +18,9 @@
     width: 100%;
     margin-bottom: 10px;
   }
+  .header button {
+    margin-top: 1rem;
+  }
   main {
     height: auto;
   }
@@ -82,4 +85,4 @@
   .contactContainer > div {
     width: 96% !important;
   }
-}/*# sourceMappingURL=responsive.css.map */
+}
