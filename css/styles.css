@@ -506,7 +506,7 @@ section.recentWorkSec .recentWork__works--pics img {
   padding-bottom: 2rem;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
