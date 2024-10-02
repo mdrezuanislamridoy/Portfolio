@@ -324,6 +324,10 @@ section.recentWorkSec .recentWork__works {
 section.recentWorkSec .recentWork__works--pics {
   width: 45%;
 }
+section.recentWorkSec .recentWork__works--pics:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 8px #1572b6, -2px -2px 8px #094875;
+}
 section.recentWorkSec .recentWork__works--pics img {
   width: 100%;
 }
@@ -353,6 +357,11 @@ section.recentWorkSec .recentWork__works--pics img {
 .experEdu .experienceNeducation .experience,
 .experEdu .experienceNeducation .education {
   width: 48%;
+}
+.experEdu .experienceNeducation .experience div:hover,
+.experEdu .experienceNeducation .education div:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 8px #1572b6;
 }
 .experEdu .experienceNeducation .experience div,
 .experEdu .experienceNeducation .education div {
@@ -493,10 +502,11 @@ section.recentWorkSec .recentWork__works--pics img {
 }
 .testimonial {
   max-width: 1200px;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -515,6 +525,10 @@ section.recentWorkSec .recentWork__works--pics img {
   flex: 1;
   border-radius: 5px;
   border-top: 5px solid #1572b6;
+}
+.fig:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 8px #1572b6;
 }
 
 .fig *,
@@ -696,6 +710,9 @@ section.contacts .contactContainer .contact-info > div i {
   font-size: 1.5rem;
 }
 
+.footer-links {
+  max-width: 20%;
+}
 .footer-about,
 .footer-links,
 .footer-contact,
