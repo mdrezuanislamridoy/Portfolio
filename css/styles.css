@@ -7,8 +7,8 @@
 }
 
 .top-area {
-  background-color: #17153b;
-
+  /* background-color: #17153b; */
+  background-image: linear-gradient(45deg, #100e2e, #1f1c54);
   padding: 1rem;
 }
 
@@ -178,6 +178,7 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
+  filter: drop-shadow(5px 5px 10px rgba(76, 25, 227, 0.324));
 }
 
 /* experiences */
@@ -228,6 +229,9 @@ section.serv__sec {
   text-align: center;
   max-width: 80%;
   margin: auto;
+}
+.services__infos--text {
+  margin-bottom: 2rem;
 }
 .services__infos h2 {
   font-size: 36px;
@@ -478,8 +482,7 @@ section.contacts .contactContainer .contact-info > div i {
 
 .skills-section h2 {
   font-size: 2.5rem;
-  background-image: linear-gradient(45deg, #2e236c, #fff);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(46deg, #0b0734, #fff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
@@ -656,4 +659,96 @@ section.contacts .contactContainer .contact-info > div i {
 
 .footer-bottom p {
   margin: 0;
+}
+
+.outTest {
+  background-color: #100e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.outTest > h2 {
+  font-size: 36px;
+  background-image: linear-gradient(45deg, #2e236c, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 2rem;
+  margin-bottom: 10px;
+}
+.testimonial {
+  max-width: 1200px;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fig {
+  box-shadow: 0 0 5px rgba(47, 37, 179, 0.15);
+  background-color: #433d8b;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  margin: 35px 10px 10px;
+  max-width: 310px;
+  min-width: 250px;
+  position: relative;
+  text-align: center;
+  width: 30%;
+  flex: 1;
+  border-radius: 5px;
+  border-top: 5px solid #1572b6;
+}
+
+.fig *,
+.fig *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.fig figcaption {
+  padding: 13% 10% 12%;
+}
+
+.fig figcaption:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: #1572b6;
+  content: "\f10e";
+  font-family: "FontAwesome";
+  font-size: 32px;
+  font-style: normal;
+  left: 50%;
+  line-height: 60px;
+  position: absolute;
+  top: -30px;
+  width: 60px;
+}
+
+.fig h3 {
+  color: #c8acd6;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.fig h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.fig blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
 }

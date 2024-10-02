@@ -88,10 +88,16 @@
   .contactContainer > div {
     width: 96% !important;
   }
+  .testimonial .fig {
+    width: 48%;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .experiences__works {
+    width: 100%;
+  }
+  .testimonial .fig {
     width: 100%;
   }
 }
